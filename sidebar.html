@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <a href="#mysidebar" class="btn btn-success" data-bs-toggle="offcanvas">Menu</a>
+    <div class="container">
+
+    <div class="offcanvas offcanvas-start bg-warning" id="mysidebar">
+    <!--sidebar-->
+        <div class="offcanvas-header bg-dark">
+            <!--icon here-->
+            <h1 class="offcanvas-title text-light"> M&M Smoothie and Bar</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+
+        </div>
+<div class="offcanvas-body ">
+    <div class="accordion "id="myacco" >
+        
+        <!--Home item-->
+        <div class="accordion-item "  > 
+            <h2 class="accordion-header"></h2>
+           <button class="accordion-button" data-bs-toggle="collapse"data-bs-target="#home">Smoothies</button>
+           
+           <div class="accordion-collapse collapse" id="home" data-bs-parent="myacco">
+               
+               <!--Home content1-->
+               <div class="accordion-body">
+                   <div class="list-group-flush">
+                       <li class="list-group-item">Mango passion</li>
+                       <li class="list-group-item">Mango banana</li>
+                       <li class="list-group-item">Mango pine</li>
+                       <li class="list-group-item">Mango strawberry</li>
+                       <li class="list-group-item">Passion pine</li>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Dashboard item-->
+        <div class="accordion-item"  > 
+            <h2 class="accordion-header"></h2>
+           <button class="accordion-button" data-bs-toggle="collapse"data-bs-target="#dash">Juices</button>
+           
+           <div class="accordion-collapse collapse" id="dash" data-bs-parent="myacco">
+               
+               <!--Dahboard content1-->
+               <div class="accordion-body">
+                   <div class="list-group-flush">
+                       <li class="list-group-item">Passion</li>
+                       <li class="list-group-item">Mango</li>
+                       <li class="list-group-item">Reports</li>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Orders item-->
+        <div class="accordion-item"  > 
+            <h2 class="accordion-header"></h2>
+           <button class="accordion-button" data-bs-toggle="collapse"data-bs-target="#order">Milkshakes</button>
+           
+           <div class="accordion-collapse collapse" id="order" data-bs-parent="myacco">
+               
+               <!--Orders content1-->
+               <div class="accordion-body">
+                   <div class="list-group-flush">
+                       <li class="list-group-item">Overview</li>
+                       <li class="list-group-item">Updates</li>
+                       <li class="list-group-item">Reports</li>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Account item -->
+        <div class="accordion-item"  > 
+            <h2 class="accordion-header"></h2>
+           <button class="accordion-button" data-bs-toggle="collapse"data-bs-target="#account">Mojitos</button>
+           
+           <div class="accordion-collapse collapse" id="account" data-bs-parent="myacco">
+               
+               <!--Home content1-->
+               <div class="accordion-body">
+                   <div class="list-group-flush">
+                       <li class="list-group-item">Overview</li>
+                       <li class="list-group-item">Updates</li>
+                       <li class="list-group-item">Reports</li>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    </div>
+        <h3>M&M SMOOTHIE AND BAR</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere labore exercitationem perspiciatis repellendus veritatis voluptates quos magnam cum necessitatibus officia dolore quasi ex, nostrum animi velit laboriosam illum tempora. Et!</p>
+        <h2>more content</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ducimus molestiae sapiente quia est dolores voluptates vero natus! Repellat perspiciatis quia distinctio tempora saepe ipsa, illum voluptatibus id a exercitationem.</p>
+    </div>
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a href="" class="page-link"><span>&lt;&lt;</span></a></li>
+            <li class="page-item"><a href="page1.html" class="page-link">1</a></li>
+            <li class="page-item"><a href="page2.html" class="page-link">2</a></li>
+            <li class="page-item active"><a href="sidebar.html" class="page-link">3</a></li>
+            <li class="page-item"><a href="pagenation.html" class="page-link">4</a></li>
+            <li class="page-item"><a href="" class="page-link">&gt;&gt;</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

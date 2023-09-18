@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button group</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <!--Button Group- having a group of buttons togerher-->
+    <div class="container">
+        <div class="btn-group justify-items-center">
+            <button  type="button" class="btn btn-primary">Button1</button>
+            <button  type="button" class="btn btn-primary">Button1</button>
+            <button  type="button" class="btn btn-primary">Button1</button>
+        </div>
+        <br><br>
+
+        <h3>Make one buttons to be active</h3>
+        <div class="btn-group ">
+            <button  type="button" class="btn btn-primary active">Button1</button>
+            <button  type="button" class="btn btn-primary">Button1</button>
+            <button  type="button" class="btn btn-primary">Button1</button>
+        </div>
+        
+        <h3>use different background colors</h3>
+        
+        <div class="btn-group ">
+            <button  type="button" class="btn btn-info">Button1</button>
+            <button  type="button" class="btn btn-dark">Button1</button>
+            <button  type="button" class="btn btn-success">Button1</button>
+        </div>
+
+        <h3>Use diff elements</h3>
+        <!--use different elements-->
+        <div class="btn-group justify-items-center">
+            <a href="https://www.youtube.com/" target="_blank" class="btn btn-success"> link1</a>
+            <a href="" class="btn btn-success">link2</a>
+            <a href="" class="btn btn-success">link3</a>
+        </div>
+
+        <h3>Create btn group with outline</h3>
+        <div class="btn-group ">
+            <button  type="button" class="btn btn-outline-info">Button1</button>
+            <button  type="button" class="btn btn-outline-dark">Button1</button>
+            <button  type="button" class="btn btn-outline-success active">Button1</button>
+        </div>
+<br><br>
+
+        <!--checkbox in a button-->
+        <h3>Check box button</h3>
+        <caption>Select your favourite Subjects</caption>
+        <br>
+        <div class="btn-group"> 
+            <input type="checkbox" class="btn-check" id="Physics">
+            <label for="Physics" class="btn btn-outline-primary me-2">Physics</label>
+            <input type="checkbox" class="btn-check " id="maths">
+            <label for="maths" class=" btn btn-outline-success me-2">Maths</label>
+            <input type="checkbox" class="btn-check" id="Biology">
+            <label for="Biology" class="btn btn-outline-info me-2">Biology</label>
+            </div>
+            <br><br>
+
+            <!--radio in a  button-->
+            <h3>Radio Buttons</h3>
+            <caption>Select your Gender</caption>
+            <br>
+            <div class="btn-group"> 
+                <input type="radio" name="gender" class="btn-check" id="Male">
+                <label for="science" class="btn btn-outline-primary me-2">Male</label>
+                <input type="radio"  name="gender" class="btn-check " id="Female">
+                <label for="Philosophy" class=" btn btn-outline-success me-2">Female</label>
+            </div>
+            <br><br>
+            
+            <!--creating a toolbar using btn grp-->
+            <div class="btn-toolbar">
+                <div class="btn-group ">
+                    <button  type="button" class="btn btn-outline-info">1</button>
+                    <button  type="button" class="btn btn-outline-dark">2</button>
+                    <button  type="button" class="btn btn-outline-success ">3</button>
+                    <button  type="button" class="btn btn-outline-success ">4</button>
+                    <button  type="button" class="btn btn-outline-success ">5</button>
+                </div>
+            </div>
+
+            <!--close button -used for dismissing contents-->
+            <br><br>
+            <button type="button" class="btn-close"></button>
+    </div>
+    
+
+
+    
+</body>
+</html>
