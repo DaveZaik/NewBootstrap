@@ -8,6 +8,34 @@
     <script src="js/bootstrap.js"></script>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-light p-4 bg-light">
+        <div class="navbar-brand"><img src="images/logo.png" height="80"  width="140px">
+        </div>
+        <button type="button" class="navbar-toggler-icon navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mylinks"></button>
+        <div class="navbar-collapse collapse" id="mylinks">
+            <!--navbar nav-->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="navbar.html" class=" nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sidebar.html" class="active nav-link">Servings</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="" class=" nav-link dropdown-tooggle" data-bs-toggle="dropdown"">About Us</a>
+                    <ul class="dropdown-menu">
+                        <li class="list-group"><a href="" class="nav-link dropdown-item"></a>Whatsapp
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--end of navbar collaopse-->
+        <form action="" class="d-flex">
+            <input class="form-control" type="search" placeholder="Search Beverage">
+            <input type="submit" class="btn btn-success" value="Search"> 
+         </form>
+    </nav>
     <a href="#mysidebar" class="btn btn-success" data-bs-toggle="offcanvas">Menu</a>
     <div class="container">
 
@@ -73,8 +101,8 @@
                <!--Orders content1-->
                <div class="accordion-body">
                    <div class="list-group-flush">
-                       <li class="list-group-item">Overview</li>
-                       <li class="list-group-item">Updates</li>
+                       <li class="list-group-item">Potashio</li>
+                       <li class="list-group-item">Oreo Shake</li>
                        <li class="list-group-item">Reports</li>
                        
                     </div>
@@ -85,7 +113,26 @@
         <!--Account item -->
         <div class="accordion-item"  > 
             <h2 class="accordion-header"></h2>
-           <button class="accordion-button" data-bs-toggle="collapse"data-bs-target="#account">Mojitos</button>
+            <button class="accordion-button" data-bs-toggle="collapse"data-bs-target="#account">Mojitos</button>
+            
+            <div class="accordion-collapse collapse" id="account" data-bs-parent="myacco">
+                
+                <!--Home content1-->
+                <div class="accordion-body">
+                   <div class="list-group-flush">
+                       <li class="list-group-item">weight loss</li>
+                       <li class="list-group-item">Updates</li>
+                       <li class="list-group-item">Reports</li>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Account item -->
+        <div class="accordion-item"  > 
+            <h2 class="accordion-header"></h2>
+           <button class="accordion-button" data-bs-toggle="collapse"data-bs-target="#account">Smoothie Bowls</button>
            
            <div class="accordion-collapse collapse" id="account" data-bs-parent="myacco">
                
@@ -100,7 +147,24 @@
                 </div>
             </div>
         </div>
-
+        <!--Account item -->
+        <div class="accordion-item"  > 
+            <h2 class="accordion-header"></h2>
+           <button class="accordion-button" data-bs-toggle="collapse"data-bs-target="#account">Fruit Salad</button>
+           
+           <div class="accordion-collapse collapse" id="account" data-bs-parent="myacco">
+               
+               <!--Home content1-->
+               <div class="accordion-body">
+                   <div class="list-group-flush">
+                       <li class="list-group-item">weight loss</li>
+                       <li class="list-group-item">Updates</li>
+                       <li class="list-group-item">Reports</li>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
     </div>
